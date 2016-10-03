@@ -9,7 +9,7 @@ function scope () {<br>
   var rad = rachel;<br>
   console.log(one);  <-------- OK<br>
 }<br>
-console.log(rad);  <-------- will throw and ERROR
+console.log(rad);  <-------- will throw an ERROR
 
 When a variable is declared inside a function it can only be used within that function, it is a local variable. When it's called outside of functions, it is a global variable and can be used anywhere in the code.
 
